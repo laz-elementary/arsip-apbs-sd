@@ -6,13 +6,13 @@ const supabasePublishableKey =
 
 if (!supabaseUrl) {
   throw new Error(
-    "VITE_SUPABASE_URL belum tersedia. Periksa Environment Variables."
+    "VITE_SUPABASE_URL belum tersedia. Periksa Environment Variables di Vercel."
   );
 }
 
 if (!supabasePublishableKey) {
   throw new Error(
-    "VITE_SUPABASE_PUBLISHABLE_KEY belum tersedia. Periksa Environment Variables."
+    "VITE_SUPABASE_PUBLISHABLE_KEY belum tersedia. Periksa Environment Variables di Vercel."
   );
 }
 
